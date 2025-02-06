@@ -43,9 +43,9 @@ header_scores = {
 def get_db_connection():
     return mysql.connector.connect(
         host='sql12.freesqldatabase.com',          # Replace with your MySQL host
-        user='sql12758999',               # Replace with your MySQL username
-        password='9uxbMpPuHN',       # Replace with your MySQL password
-        database='sql12758999'
+        user='root',               # Replace with your MySQL username
+        password='admin',       # Replace with your MySQL password
+        database='mydatabase'
     )
 
 # Function to fetch headers and score them
